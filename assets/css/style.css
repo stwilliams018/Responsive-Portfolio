@@ -1,0 +1,173 @@
+body{
+    width: 960px;
+    padding: 0px;
+    margin:20px
+}
+
+header{
+    width: 960px;
+    height: 50px;
+    background-color: #ffffff;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    padding: 0px;
+    padding: 0px 0px 0px 0px;
+    align-items: flex-end    
+}
+
+.main1{
+    background-image: url(../images/gravel.png);
+    height: 400px;
+    border-bottom: 4px solid #4aaaa5;
+    padding: 25px;
+    border-top: 2px solid #666666
+}
+.main2{
+    background-color: #ffffff;
+    margin: 0px 150px 150px 135px;
+    border-top: 2px #666666
+    
+}
+
+h1{
+    width: 250px;
+    background-color: #4aaaa5;
+    color: white;
+    float: left; 
+    height: 50px;
+    margin: 0px 220px 0px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    clear: right;
+    width: 350px;
+}
+
+li{
+    display: inline;
+    margin-right: 10px;
+    height: 60%
+
+}
+h2{
+    color: #4aaaa5;
+    margin: 20px 15px 15px 15px;
+    border-bottom: 2px solid #666666
+
+}
+img{
+    float:left;
+    margin: 10px 10px 10px 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: #666666;
+    color: floralwhite;
+    height: 52px;
+}
+nav{
+    width: 325;
+    height: 15px;
+    align-content: center
+}
+.emptyleft{
+    width: 175px;
+    height: 50px
+}
+.emptyright{
+    width: 0px;
+    height: 50px
+}
+
+p{
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5
+}
+
+form{
+    margin: 15px;
+    width: 300px
+}
+
+a{
+    color: #666666
+}
+
+a:active{
+    color: royalblue
+}
+
+a:hover{
+    color: red
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+    height: 800px  
+}
+
+.images>a{
+    flex-grow: 1;
+    width: 40%;
+    height: 50px;
+    margin:10px
+}
+
+.portfoliomain{
+    background-image: url(../images/gravel.png);
+    height: 1000px;
+    border-bottom: 4px solid #4aaaa5;
+    padding: 25px;
+    border-top: 2px solid #666666
+}
+
+button{
+    background-color: #4aaaa5;
+    margin-top: 10px
+}
+
+input {
+    width: 100%;
+}
+
+form{
+    width: 600px;
+    height: 275px
+}
+
+textarea {
+    width: 100%;
+}
+@media only screen and (max-width: 980px) {
+    body {
+        width: 640px;
+    }
+    header{
+        width: 640px
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    body {
+        width: 640px;
+    }
+    header{
+        width: 640px
+    }
+  }
+  @media only screen and (max-width: 640px) {
+    body {
+      width: 640px;
+    }
+    header{
+        width: 640px
+    }
+  }
